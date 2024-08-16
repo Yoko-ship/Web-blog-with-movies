@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <script src="blog.js" defer></script>
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <header>
+        <div class="head-div">Оценка фильмов</div>
+        <nav>
+            <ul>
+                <li class="main-menu">Главная</li>
+                <li class="about-us">О сайте</li>
+                <li class="contacts"><a href="https://www.youtube.com/@user-yc4fu2ds4b">Контакты</a></li>
+                <li class="origin"><a href="https://www.kinopoisk.ru/user/2092256/movies/list/type/6/sort/rating_user/vector/desc/#list">Источники</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="about-cite">
+        <h2>Оценка фильмов</h2>
+        <span>Сайт для оценки фильмов – это платформа, на которой пользователи <br>
+            могут находить и делиться мнениями о кинематографе.<br>
+            Такой сайт предоставляет возможность оставлять рецензии, <br>
+            ставить оценки и создавать персональные списки фильмов. <br>
+            Он служит ориентиром для киноманов, помогая выбрать, что посмотреть дальше.</span>
+    </div>
+    <div class="inp-btn">
+        <form>
+            <label for="title">Название</label>
+            <input type="text" class="title" required>
+
+            <label for="grade">Оценка</label>
+            <input type="text" class="grading" required>
+            
+            <label for="photo">Фото</label>
+            <input type="file" class="picture" accept="image/*" required>
+            
+            <button type="submit" class="btn-submit">Опубликовать</button>
+        </form>
+    </div>
+
+    <div class="grids">
+        
+    </div>
+</body>
+</html>
