@@ -7,7 +7,7 @@ const grids = document.querySelector(".grids");
 const btn_submit = document.querySelector(".btn-submit");
 const title_int = document.querySelector(".title");
 const grade_int = document.querySelector(".grading");
-const picture = document.querySelector(".picture");
+// const picture = document.querySelector(".picture");
 
 // Создаем глобальную переменную image
 const image = document.createElement("img");
